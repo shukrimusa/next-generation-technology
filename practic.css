@@ -2,14 +2,28 @@
     padding: 0;
     margin: 0;
 }
-.box{
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    height: 400px;
-    background-image: linear-gradient(to top, red 10% ,yellow 90%);
-    margin: 10px;
-    align-items: center;
-    text-align: right;
+
+body{
+  
     
+}
+.box{
+    background: yellow;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+   
+    
+}
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+   
 }
