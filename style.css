@@ -20,7 +20,7 @@
 .navbar_container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     max-width: 1300px;
     height: 80px;
     margin: 0 auto;
@@ -82,4 +82,25 @@
     color: #fff;
     padding: 10px 20px
 }
+.button:hover{
+    background: #4834ff;
+    transition:all 0.3 ease;
+}
+.navbar__links:hover{
+    color: #f77062;
+    transition: all 0.3 ease;
+}
+
+@media screen and (max-width: 960px){
+    .navbar__container{
+
+    }
+    .navbar__menu{
+        display: grid;
+        grid-template-columns: auto;
+        opacity: 0;
+    }
+}
+    
+
 
